@@ -1,0 +1,36 @@
+body {
+  margin: 200px;
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+button {
+  margin: 5px;
+  font-size: 1.2em;
+  width: 250px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+}
+button:hover {
+  font-size: 1.3em;
+}
+#increment-btn {
+  background-color: darkred;
+}
+#save-btn {
+  background-color: darkgreen;
+}
+
+@media only screen and (max-width: 634px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1em;
+  }
+}
