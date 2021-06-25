@@ -35,3 +35,8 @@ Font colors used :
 --SforIcon1 : #ececee
 
 --SforIcon2 : #8a8b8e
+
+Final Result
+
+<img src="Result/darktheme.png">
+<img src="Result/lighttheme.png">
