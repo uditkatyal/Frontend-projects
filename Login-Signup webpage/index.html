@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/Sign-up</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container" align="center">
+      <h1>Sign-up</h1>
+      <div class="user">
+        <i class="fa fa-user"></i>
+        <input type="text" placeholder="Username" />
+      </div>
+
+      <div class="email">
+        <i class="fa fa-envelope"></i>
+        <input type="email" placeholder="Your email" />
+      </div>
+
+      <div class="pass">
+        <i class="fa fa-lock"></i>
+        <input type="password" placeholder="Create password" />
+      </div>
+
+      <div class="btn">
+        <button>Sign Up</button>
+      </div>
+
+      <h4>or Sign up With social platforms</h4>
+      <div class="icons">
+        <button><i class="fa fa-facebook"> </i></button>
+        <button><i class="fa fa-google"> </i></button>
+        <button><i class="fa fa-twitter"> </i></button>
+        <button><i class="fa fa-linkedin"> </i></button>
+      </div>
+
+      <div class="foot">
+        <span>Already have an account?</span>
+        <a href="#">log in</a>
+      </div>
+      <div id="mode">
+        <button id="lt" onclick="light()">Light mode</button>
+        <button id="drk" onclick="dark()">Dark mode</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
