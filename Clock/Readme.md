@@ -1,6 +1,6 @@
-Neumorphic Clock Design
+# Neumorphic Clock Design
 
-Using | HTML | | CSS | | JS |
+## Using | HTML | | CSS | | JS |
 
 Fetching Date and Time from Personal Computer
 
