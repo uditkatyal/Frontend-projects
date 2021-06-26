@@ -12,4 +12,10 @@ Color used
 black
 white
 
-<img src="clock.png" >
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="path/to/video.mp4" type="clock.mp4">
+    <!-- <source src="path/to/video.ogg" type="video/ogg">
+    <source src="path/to/video.webm" type="video/webm"> -->
+  </video>
+</figure>
